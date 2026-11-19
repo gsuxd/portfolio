@@ -1,4 +1,3 @@
-import uniqid from 'uniqid'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LaunchIcon from '@material-ui/icons/Launch'
 import './ProjectContainer.css'
@@ -10,8 +9,8 @@ const ProjectContainer = ({ project }) => (
     <p className='project__description'>{project.description}</p>
     {project.stack && (
       <ul className='project__stack'>
-        {project.stack.map((item) => (
-          <li key={uniqid()} className='project__stack-item'>
+        {project.stack.map((item, index) => (
+          <li key={`${item}-${index}`} className='project__stack-item'>
             {item}
           </li>
         ))}

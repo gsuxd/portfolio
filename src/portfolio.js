@@ -1,80 +1,87 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://gsusupreme.github.io/portfolio-xd',
+  homepage: 'https://gsuxd.github.io/portfolio-xd',
   title: '',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Jesus Polanco',
-  role: 'Front End Engineer',
+  role: 'Fullstack Engineer',
   description:
-    '"I wish i was dead tomorrow"',
+    'Desarrollador de software Full-Stack especializado en backend, arquitectura web y aplicaciones móviles.',
   resume: '',
   social: {
-    facebook: 'https://facebook.com/J1SUS2013',
-    github: 'https://github.com/gsuSUPREME',
+    github: 'https://github.com/gsuxd',
+    linkedin: 'https://www.linkedin.com/in/gsuxd/',
   },
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
-    name: 'Windhand',
+    name: 'Stax Store',
     description:
-      'Mauqetación de página web responsive a partir de diseño',
-    stack: ['CSS', 'React'],
-    sourceCode: 'https://github.com/gsuSUPREME/Winhand-vite',
-    livePreview: 'https://gsusupreme.github.io/Winhand-vite',
+      'Tienda virtual multicategoría lanzada en julio de 2026 para un único retailer, con autenticación segura y persistencia de datos.',
+    stack: ['Next.js', 'Supabase', 'Tailwind CSS', 'Docker Compose', 'Nginx'],
+    livePreview: 'https://stax-store-mu.vercel.app/demo',
   },
   {
-    name: 'Xd-Store',
+    name: 'Grupo Empresarial One',
     description:
-      'E-Commerce de prueba',
-    stack: ['Tailwindcss', 'NextJS', 'React'],
-    sourceCode: 'https://github.com/gsuSUPREME/xd-store',
-    livePreview: 'https://xd-store.vercel.app/',
+      'Plataforma piramidal de referidos con tracking de ventas y comisiones mediante WooCommerce y webhooks.',
+    stack: ['Next.js', 'Tailwind CSS', 'Prisma', 'PostgreSQL'],
+    livePreview: 'https://redes.grupoempresarialone.com',
   },
   {
-    name: 'Landing page',
+    name: 'TECHSO',
     description:
-      'Landing page creada para prueba',
-    stack: ['CSS', 'HTML'],
-    sourceCode: 'https://github.com/gsuSUPREME/fuck',
-    livePreview: 'https://gsusupreme.github.io/fuck/',
+      'Landing page para empresa contratista del sector petrolero, con presentación de servicios, trayectoria y experiencia industrial.',
+    stack: ['Landing Page'],
+    livePreview: 'https://techso.lat',
   },
   {
-    name: 'Notes App',
+    name: 'Angells Health',
     description:
-      'WebApp de notasw FullStack sin estilos',
-    stack: ['React', 'Express', 'NodeJS', 'MongoDB'],
-    sourceCode: 'https://github.com/gsuSUPREME/Notes-XD',
-    livePreview: 'https://gsusupreme.github.io/Notes-XD/',
+      'Adaptación web de la aplicación Angells. Proyecto no publicado.',
+    stack: ['Web Adaptation'],
   },
   {
-    name: 'componente tarjeta de visualizacion de estados',
+    name: 'Joie Driver',
     description:
-      'Componente de tarjeta responsive',
-    stack: ['CSS', 'HTML', 'Typescript', 'React'],
-    sourceCode: 'https://github.com/gsuSUPREME/stats-preview-card-component/',
-    livePreview: 'https://stats-preview-card-01.herokuapp.com/',
+      'Aplicación móvil de taxis desarrollada con Flutter y Firebase.',
+    stack: ['Flutter', 'Firebase Functions', 'Firestore', 'Messaging'],
   },
   {
-    name: 'Sumario de ordenes',
+    name: 'Angells',
     description:
-      'Componente de Sumario de ordenes responsive',
-    stack: ['CSS', 'HTML', 'Typescript', 'React'],
-    sourceCode: 'https://github.com/gsuSUPREME/Order-summary',
-    livePreview: 'https://order-summary1415.netlify.app/',
+      'Aplicación móvil de servicios a domicilio desarrollada con Flutter y Firebase.',
+    stack: ['Flutter', 'Firebase Functions', 'Firestore', 'Messaging'],
   },
   {
-    name: 'Calculadora de MRU',
+    name: 'H2O Gestión',
     description:
-      'WebApp calculadora sin estilos que resuelve problemas de mru poniendo los datos',
-    stack: ['CSS', 'HTML', 'Typescript', 'React'],
-    sourceCode: 'https://github.com/gsuSUPREME/Calculadora-MRU',
-    livePreview: 'https://gsusupreme.github.io/Calculadora-MRU',
+      'Sistema de telemetría hídrica con API Full-Stack y módulo móvil de visión por computadora.',
+    stack: ['Express.js', 'PostgreSQL', 'Flutter', 'Computer Vision'],
+  },
+  {
+    name: 'Keebot',
+    description:
+      'Aplicación móvil de mensajería para 10,000 usuarios con verificación de identidad y pagos recurrentes.',
+    stack: ['Express.js', 'Flutter', 'REST APIs'],
+    livePreview: 'https://play.google.com/store/apps/details?id=com.keego.keegochat',
+  },
+  {
+    name: 'Aventuras Bonitas',
+    description:
+      'Plataforma transaccional P2P con conciliación automática y pasarelas de pago.',
+    stack: ['Django', 'Redis', 'Docker Compose', 'Nginx'],
+  },
+  {
+    name: 'Tráemelo PF',
+    description:
+      'Plataforma de delivery multi-vertical con tres aplicaciones Flutter y backend escalado para más de 2,000 usuarios.',
+    stack: ['Laravel', 'Flutter', 'Redis', 'MQTT', 'AWS', 'Docker Compose'],
+    livePreview: 'https://traemelopf.com',
   },
 ]
 
@@ -85,15 +92,75 @@ const skills = [
   'CSS',
   'JavaScript',
   'TypeScript',
+  'Python',
+  'PHP',
+  'SQL',
   'React',
+  'Next.js',
+  'React Native',
+  'Tailwind CSS',
+  'Django',
+  'Laravel',
+  'Express.js',
+  'Node.js',
+  'RESTful APIs',
+  'WebSockets',
+  'MQTT',
+  'PostgreSQL',
+  'MySQL',
+  'MongoDB',
+  'Prisma',
+  'Supabase',
+  'Redis',
+  'Docker Compose',
+  'Linux',
+  'AWS',
+  'Nginx',
   'Git',
+  'GitHub Actions',
+  'CI/CD',
   'Flutter',
   'Dart'
+]
+
+const certifications = [
+  {
+    name: 'Software Engineer',
+    entity: 'HackerRank',
+    id: 'b87a8e6e7ff6',
+    preview: 'https://www.hackerrank.com/certificates/iframe/b87a8e6e7ff6',
+  },
+  {
+    name: 'Frontend Developer (React)',
+    entity: 'HackerRank',
+    id: '6d3f0e27f765',
+    preview: 'https://www.hackerrank.com/certificates/iframe/6d3f0e27f765',
+  },
+  {
+    name: 'Problem Solving (Intermediate)',
+    entity: 'HackerRank',
+    id: '77b2642087d6',
+    preview: 'https://www.hackerrank.com/certificates/iframe/77b2642087d6',
+  },
+  {
+    name: 'REST API (Intermediate)',
+    entity: 'HackerRank',
+    id: '06c5d87326d9',
+    preview: 'https://www.hackerrank.com/certificates/iframe/06c5d87326d9',
+  },
+  {
+    name: 'Back End Development and APIs',
+    entity: 'freeCodeCamp',
+    id: 'gsuxd-bedv9',
+    preview:
+      'https://www.freecodecamp.org/certification/gsuxd/back-end-development-and-apis-v9',
+  },
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
   email: 'jesusmanuelpolancogarcia51@gmail.com',
+  phone: '+584246250126'
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, skills, certifications, contact }
